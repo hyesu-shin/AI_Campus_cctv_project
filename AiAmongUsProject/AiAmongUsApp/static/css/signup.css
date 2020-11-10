@@ -1,0 +1,104 @@
+body{
+    font-family: 'Nanum Gothic Coding', monospace;
+    background-image: url(/static/img/background.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top{
+    width: 100%;
+    display:flex;
+    justify-content: flex-start;
+}
+.top_left{
+    display: flex;  
+    justify-content: flex-start;
+    float: left;
+	align-items:center;
+    font-size: 23px;
+}
+.character{
+    display: flex;
+    float: left;
+}
+#character{
+    width: 100px;
+    height: 95px;
+    /* position: absolute; */
+}
+.logo{
+    display: flex;
+    float: left;
+    padding-top:20px;
+    margin-left:-20px;
+}
+#logo{
+    height: 50px;
+    width: 150px;
+    /* position: absolute;
+    margin-left: 76px;
+    margin-top: 33px; */
+}
+.main{
+    width: 100%;
+    display : flex;
+    justify-content: center;
+}
+
+.container{
+    display :flex;
+    justify-content: center;
+    width:60%;
+}
+.form {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    width:100%
+}
+
+table{
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+}
+tr{
+    height: 50px;
+}
+tr > td:nth-child(1){
+    width: 30%;
+    color: white
+}
+tr > td:nth-child(2){
+    width: 70%;
+    color: white
+}
+input{
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+}
+input:focus{
+    outline-width:0px;
+}
+#submit{
+    text-align: center;
+    margin-top: 7%;
+}
+input[type=image]{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100px;
+    margin-top: 30%;
+    border: none;;
+}
+.alert{
+    height: 20px;
+    font-size: 10px;
+    color: red !important;
+}

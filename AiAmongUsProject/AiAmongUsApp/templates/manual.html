@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" type="text/css" href="{% static 'css/mobile.css' %}" />
+    <link rel="stylesheet" media="screen and (min-width: 600px)" type="text/css" href="{% static 'css/home.css' %}" />
+    <link rel="stylesheet" media="screen and (min-width: 600px)" type="text/css" href="{% static 'css/manual.css' %}" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Manual</title>
+</head>
+<body>
+<div class = "top">
+    <div class ="top_left">
+        <div class="character">
+            <img src="/static/img/cctv.png" id = "character" alt="character">
+        </div>
+        <div class="logo">
+            <a href = "#"><img src="/static/img/amongus.png" id = "logo" alt="logo"></a>
+        </div>
+    </div>
+    <div class = "top_right">
+        <a href="/login/" class="sign">LOGIN</a>
+        <a href="/signup/" class="sign">SIGNUP</a>
+    </div>
+</div>
+
+<div class="main2">
+    <img src="/static/img/cctv.png" class = "move" alt="character"> 
+    <img src="/static/img/character.png" class = "move" id="move2" alt="character"> 
+    <img src="/static/img/character2.png" class = "move" id="move3" alt="character">
+    <img src="/static/img/character3.png" class = "move" id="move4" alt="character">
+    <img src="/static/img/character4.png" class = "move" id="move5" alt="character"> 
+    <img src="/static/img/character5.png" class = "move" id="move6" alt="character">
+    <img src="/static/img/manual.png" id = "img" alt="character"> 
+    <div class = "intro">
+        <p id = "one">AI Among Us</p>
+        <p id = "two">로그인 후 CCTV 알림을 받을 수 있습니다</p>
+    </div>
+</div>
+    
+
+{% comment %} <div id = "team">kimsia / shinhyesu / Leeisack / janghayoung</div> {% endcomment %}
+
+</body>
+</html>
